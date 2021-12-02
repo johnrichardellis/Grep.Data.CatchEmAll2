@@ -78,6 +78,8 @@ filescan_00.4 > venusaur.txt
 # Part 2
 ### a)
 
+find . -type f | wc -l
+16
 
 
 
