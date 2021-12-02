@@ -1,22 +1,71 @@
 # Part 1
 ### a)
-ggrep -P "beed" filescan_00.1
-ggrep -P "blas" filescan_00.1
-ggrep -P "bulb" filescan_00.1
-ggrep -P "butt" filescan_00.1
-
-
+ggrep -P "beed" filescan_00.1 > beedrill.txt
+ggrep -P "blas" filescan_00.1 > blastoise.txt
+ggrep -P "bulb" filescan_00.1 > bulbasaur.txt
+ggrep -P "butt" filescan_00.1 > butterfree.txt
+ggrep -P "mander" filescan_00.2 > charmander.txt
+ggrep -P "meleon" filescan_00.2 > charmeleon.txt
+ggrep -P "izard" filescan_00.2 > charizard.txt
+ggrep -P "pika" filescan_00.3 > pikachu.txt
+ggrep -P "ivys" filescan_00.3 > ivysaur.txt
+ggrep -P "jigg" filescan_00.3 > jigglypuff.txt
+ggrep -P "meow" filescan_00.3 > meowth.txt
+ggrep -P "wart" filescan_00.4 > wartortle.txt
+ggrep -P "psyd" filescan_00.4 > psyduck.txt
+ggrep -P "squi" filescan_00.4 > squirtle.txt
+ggrep -P "venu" filescan_00.4 > venusaur.txt
 
 
 ### b)
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/beedrill.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/beedrill.txt
 
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/blastoise.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/blastoise.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/bulbasaur.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/bulbasaur.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/butterfree.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/butterfree.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/charmander.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/charmander.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/charmeleon.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/charmeleon.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/charizard.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/charizard.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/pikachu.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/pikachu.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/ivysaur.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/ivysaur.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/jigglypuff.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/jigglypuff.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/meowth.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/meowth.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/wartortle.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/wartortle.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/psyduck.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/psyduck.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/squirtle.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/squirtle.txt
+
+mv ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/forest/venusaur.txt ~/Desktop/dev/Projects/Grep.Data.CatchEmAll2/captured/venusaur.txt
 
 
 ### c)
 
-
-
-
+filescan_00.1 > beedrill.txt
+filescan_00.1 > blastoise.txt
+filescan_00.1 > bulbasaur.txt
+filescan_00.1 > butterfree.txt
+filescan_00.2 > charmander.txt
+filescan_00.2 > charmeleon.txt
+filescan_00.2 > charizard.txt
+filescan_00.3 > pikachu.txt
+filescan_00.3 > ivysaur.txt
+filescan_00.3 > jigglypuff.txt
+filescan_00.3 > meowth.txt
+filescan_00.4 > wartortle.txt
+filescan_00.4 > psyduck.txt
+filescan_00.4 > squirtle.txt
+filescan_00.4 > venusaur.txt
 
 
 
